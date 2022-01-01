@@ -18,6 +18,8 @@ You can connect your audio signal by using the audio input or you can use the mi
 The input sensitivity can by adjusted just like brightness and peak hold time.  When it does not receive any input signal, after a while, it will go to fire mode in which some leds/display will light up like a fire.
 The PCB can be purchased at my Tindie web shop. The firmware (Arduino Sketch ) is open source and you can modify it to your needs.
 
+There is a video here:  https://www.youtube.com/watch?v=J-84QGtK8YU
+
 #	Operation
 You can use the microphone in to connect a small condenser microphone or you can connect your audio device to the line input connectors. Although the signal from the microphone is amplified on the PCB, it might not be strong enough. Depending on your microphone, you can adjust resistor R52; decreasing it’s value will amplify the signal more. In my prototype I replaced it with a resistor of 0 Ohm ( I shorted it). However, when using a different mic, I had to increase it again to 20K. So it all depends on your mic. 
 
