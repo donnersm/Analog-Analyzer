@@ -33,7 +33,7 @@ CRGB Logo[N_PIXELS_LOGO];
 // See manual if you need to change these settings
 // FastLED_NeoMaxtrix - see https://github.com/marcmerlin/FastLED_NeoMatrix for Tiled Matrixes, Zig-Zag and so forth
 FastLED_NeoMatrix *matrix = new FastLED_NeoMatrix(leds, kMatrixWidth, kMatrixHeight,
-    NEO_MATRIX_BOTTOM        + NEO_MATRIX_RIGHT +
+    NEO_MATRIX_BOTTOM        + NEO_MATRIX_LEFT +
     NEO_MATRIX_COLUMNS       + NEO_MATRIX_ZIGZAG +
     NEO_TILE_TOP + NEO_TILE_LEFT + NEO_TILE_ROWS);
 
